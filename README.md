@@ -6,7 +6,7 @@
 ## Introduction
 
 
-In this project, I enabled Microsoft Firewall, a host-based software firewall, to deter threat actors from exploiting the virtual machine. Multiple firewall profiles were implemented, including Domain Network, Private Network, and Public Network. I ensured that Windows Defender Firewall was enabled for each network profile. Following this, I configured the firewall to permit the application Firefox to communicate through it. By allowing Firefox to have access to both the private and public networks, users can utilize Firefox on the public network. Additionally, I configured a set of inbound rules, to determine which traffic may pass through the firewall. I allowed the Key Management Service to be enabled on the Domain and Private Network, however, access from the public network was blocked. 
+In this project, I enabled Microsoft Firewall, a host-based software firewall, to deter threat actors from exploiting the virtual machine. Multiple firewall profiles were implemented, including Domain Network, Private Network, and Public Network. I ensured that Windows Defender Firewall was enabled for each network profile. Following this, I configured the firewall to permit the application Firefox to communicate through it. By allowing Firefox to have access to the public network rather than just the private network, users can utilize Firefox on the public network. Additionally, I configured a set of inbound rules, to determine which traffic may pass through the firewall. I allowed the Key Management Service to be enabled on the Domain and Private Network, however, access from the public network was blocked. 
 
 ## Enabling Firewall 
 
@@ -24,6 +24,4 @@ In this project, I enabled Microsoft Firewall, a host-based software firewall, t
 
 ## Conclusion
 
-To summarize, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
-
-It is worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.
+To summarize, implementing a firewall on systems increases the security posture of organizations. By activating Microsoft Firewall and configuring multiple profiles, including Domain Network, Private Network, and Public Network, I achieved my goal to fortify the system against potential threats. Allowing specific applications such as FireFox to communicate through the Firewall while restricting unauthorized access through inbound rules demonstrates the importance of a firewall in safeguarding sensitive data and preventing unauthorized network intrusions.  
