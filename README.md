@@ -1,5 +1,7 @@
 # Enabling and Configuring Microsoft Firewall
 
+![Firewall](https://github.com/portfolioAustinT/Enabling-and-Configuring-Microsoft-Firewall/assets/147944956/6bc473d9-93a4-4f9f-b7c0-09a71da979bc)
+
 
 ## Introduction
 
