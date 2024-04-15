@@ -5,7 +5,8 @@
 
 ## Introduction
 
-In this project, I constructed a mini honeynet within Azure, collecting log data from various resources into a Log Analytics workspace. Microsoft Sentinel utilizes this data to construct attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, applied some security controls to harden the environment, measured metrics for another 24 hours, and then shown the results below. The metrics include:
+
+In this project, I enabled Microsoft Firewall, a host-based software firewall, to deter threat actors from exploiting the virtual machine. Multiple firewall profiles were implemented, including Domain Network, Private Network, and Public Network. I ensured that Windows Defender Firewall was enabled for each network profile. Following this, I configured the firewall to permit the application Firefox to communicate through it. By allowing Firefox to have access to both the private and public networks, users can utilize Firefox on the public network. Additionally, I configured a set of inbound rules, to determine which traffic may pass through the firewall. I allowed the Key Management Service to be enabled on the Domain and Private Network, however, access from the public network was blocked. 
 
 ## Enabling Firewall 
 
