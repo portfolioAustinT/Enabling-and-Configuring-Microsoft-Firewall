@@ -7,10 +7,13 @@ In this project, I constructed a mini honeynet within Azure, collecting log data
 
 ## Enabling Firewall 
 
-![Enabling Firewall](https://github.com/portfolioAustinT/Enabling-and-Configuring-Microsoft-Firewall/assets/147944956/4af1ae33-81a0-453c-b14d-5cc009c0ff59)
+![Enabling Firewall](https://github.com/portfolioAustinT/Enabling-and-Configuring-Microsoft-Firewall/assets/147944956/d23680c4-3038-42d2-8ca4-88ed0bbc3417)
 
 
 ## Allowing App through Firewall
+
+![Allowed Apps](https://github.com/portfolioAustinT/Enabling-and-Configuring-Microsoft-Firewall/assets/147944956/5c19410e-ce12-44e5-8206-769ffe567a71)
+
 
 ## Configuring Firewall Rules
 
