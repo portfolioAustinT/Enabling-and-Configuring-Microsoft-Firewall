@@ -5,9 +5,14 @@
 
 In this project, I constructed a mini honeynet within Azure, collecting log data from various resources into a Log Analytics workspace. Microsoft Sentinel utilizes this data to construct attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, applied some security controls to harden the environment, measured metrics for another 24 hours, and then shown the results below. The metrics include:
 
-## Attack Maps Before Hardening / Security Controls
+## Enabling Firewall 
 
-## Metrics Before Hardening / Security Controls
+![Enabling Firewall](https://github.com/portfolioAustinT/Enabling-and-Configuring-Microsoft-Firewall/assets/147944956/4af1ae33-81a0-453c-b14d-5cc009c0ff59)
+
+
+## Allowing App through Firewall
+
+## Configuring Firewall Rules
 
 ## Conclusion
 
