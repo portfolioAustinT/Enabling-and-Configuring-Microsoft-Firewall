@@ -17,6 +17,8 @@ In this project, I constructed a mini honeynet within Azure, collecting log data
 
 ## Configuring Firewall Rules
 
+![Inbound-Rules](https://github.com/portfolioAustinT/Enabling-and-Configuring-Microsoft-Firewall/assets/147944956/85969699-0b17-4063-a1c0-2e27fbd9aa2f)
+
 ## Conclusion
 
 To summarize, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
